@@ -9053,6 +9053,8 @@ MonoBehaviour:
   _trackingZoneCounter: {fileID: 1543917235}
   _cameraSize: {fileID: 1429797676}
   _rocketDestrucktionZone: {fileID: 7758663368762123944}
+  _vibration: {fileID: 1915972226}
+  _cinemachineShake: {fileID: 1429797675}
 --- !u!4 &1126135598 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5920315915502128372, guid: 13178c4fe2445f848943fe86bd503cb0, type: 3}
@@ -12725,7 +12727,7 @@ MonoBehaviour:
   _rocketPrefab: {fileID: -3906485541039377701, guid: ffcb469cc90c09c44b0a945de265f3b3, type: 3}
   _isAutoExpand: 0
   _poolCount: 10
-  _spawnDelay: 3
+  _spawnDelay: 10
   _playerDistance: 60
 --- !u!4 &1594215117
 Transform:
@@ -18144,6 +18146,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 865875270807250819, guid: 2eed490c3f5c6e945989b680127073a5, type: 3}
+      propertyPath: _superpowerModule
+      value: 
+      objectReference: {fileID: 1122686113}
+    - target: {fileID: 971501410288309250, guid: 2eed490c3f5c6e945989b680127073a5, type: 3}
+      propertyPath: _vibration
+      value: 
+      objectReference: {fileID: 1915972226}
     - target: {fileID: 7758663368733835078, guid: 2eed490c3f5c6e945989b680127073a5, type: 3}
       propertyPath: m_RootOrder
       value: 4

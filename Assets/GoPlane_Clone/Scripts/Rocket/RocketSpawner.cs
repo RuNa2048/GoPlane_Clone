@@ -103,7 +103,7 @@ public class RocketSpawner : ActivatingObject
 
         rocket.transform.position = spawnPosition;
     }
-
+    
     private Vector3 CalculatePositionForSpawn()
     {
         Vector3 characterDirection = _character.transform.up;
